@@ -1,8 +1,8 @@
 name: .NET
 
 on:
-  pull_request:
-    branches: [ "master" ]
+  release:
+    types: [created]
 
 jobs:
   build-windows:
